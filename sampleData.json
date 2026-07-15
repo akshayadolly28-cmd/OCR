@@ -1,0 +1,54 @@
+{
+  "seed": [
+    {
+      "model": "User",
+      "data": [
+        {
+          "name": "John User",
+          "email": "user@example.com",
+          "password": "User@123",
+          "phone": "9876543210",
+          "role": "USER"
+        },
+        {
+          "name": "Jane Agent",
+          "email": "agent@example.com",
+          "password": "Agent@123",
+          "phone": "9876543211",
+          "role": "AGENT"
+        },
+        {
+          "name": "Admin User",
+          "email": "admin@example.com",
+          "password": "Admin@123",
+          "phone": "9876543212",
+          "role": "ADMIN"
+        }
+      ]
+    },
+    {
+      "model": "Complaint",
+      "data": [
+        {
+          "title": "Service Issue",
+          "description": "I am facing service disruption for the past 3 days",
+          "category": "Service",
+          "priority": "High",
+          "status": "Pending",
+          "userId": "USER_ID_HERE",
+          "attachment": null
+        },
+        {
+          "title": "Product Defect",
+          "description": "Received damaged product",
+          "category": "Product",
+          "priority": "Medium",
+          "status": "Assigned",
+          "userId": "USER_ID_HERE",
+          "agentId": "AGENT_ID_HERE",
+          "attachment": null
+        }
+      ]
+    }
+  ]
+}
